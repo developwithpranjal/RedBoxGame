@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <h3>Score: <span class="score" style="color: red">0</span></h3>
+        <h3>Timer: <span class="timer" style="color: red">20 </span></h3>
+      </div>
+      <div class="instructions">
+        <ul>
+          <li>
+            <i class="fa-solid fa-play" style="color: rgb(10, 38, 82)"></i>
+            Click on the<span>Start Game</span>button to begin the game.
+          </li>
+          <li>
+            <i class="fa-solid fa-play" style="color: rgb(10, 38, 82)"></i> Once
+            the game starts, the red box will appear inside the game area.
+          </li>
+          <li>
+            <i class="fa-solid fa-play" style="color: rgb(10, 38, 82)"></i>
+            Click on the red box as fast as you can to increase your score.
+          </li>
+          <li>
+            <i class="fa-solid fa-play" style="color: rgb(10, 38, 82)"></i>You
+            have 20 seconds to score as many points as possible.
+          </li>
+          <li>
+            <i class="fa-solid fa-play" style="color: rgb(10, 38, 82)"></i> When
+            the time reaches zero, the game will end automatically.
+          </li>
+        </ul>
+      </div>
+      <div class="gamearea">
+        <div class="redbox"></div>
+      </div>
+      <button class="startbtn">Start Game</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
