@@ -32,7 +32,7 @@ function MoveRedBox() {
 }
 
 function startimer() {
-  clearInterval(timeinterval);
+  
   timer.textContent = count;
   timeinterval = setInterval(() => {
     count--;
